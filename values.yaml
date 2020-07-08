@@ -453,6 +453,8 @@ bridges:
     database: "matrix_irc"
     # Prefix for the users and channels
     prefix: 'irc_'
+    # localpart for bridge
+    local_part: 'irc_bot'
 
     # Object of IRC servers to connect to, see https://github.com/matrix-org/matrix-appservice-irc/blob/master/config.sample.yaml for config options
     servers:
