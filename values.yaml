@@ -451,6 +451,8 @@ bridges:
     presence: false
     # Name of Postgres database to store IRC bridge data in, this database will be created if the included Postgres chart is enabled, otherwise you must create it manually
     database: "matrix_irc"
+    # Prefix for the users and channels
+    prefix: 'irc_'
 
     # Object of IRC servers to connect to, see https://github.com/matrix-org/matrix-appservice-irc/blob/master/config.sample.yaml for config options
     servers:
