@@ -190,6 +190,18 @@ matrix:
     # The log level for the synapse server
     synapseLogLevel: WARNING
 
+  # SAML configuration
+  # See pysaml2 docs for format of config.
+  #
+  # Default values will be used for the 'entityid' and 'service' settings,
+  # so it is not normally necessary to specify them unless you need to
+  # override them.  See Synapse configuration for more information.
+  #
+  # samlConfig:
+  #   metadata:
+  #     remote:
+  #     - url: https://our_idp/metadata.xml
+
 # Persistent volumes configuration
 volumes:
   # Uploaded attachments/multimedia
