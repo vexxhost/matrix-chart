@@ -474,7 +474,7 @@ bridges:
     resources: {}
     service:
       type: ClusterIP
-      port: 9006
+      port: 9995
 
   whatsapp:
     # Set to true to enable the WhatsApp bridge

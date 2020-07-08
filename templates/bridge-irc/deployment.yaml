@@ -77,7 +77,7 @@ spec:
           imagePullPolicy: {{ .Values.bridges.irc.image.pullPolicy }}
           ports:
             - name: bridge
-              containerPort: 9006
+              containerPort: 9995
               protocol: TCP
           volumeMounts:
             - name: data
